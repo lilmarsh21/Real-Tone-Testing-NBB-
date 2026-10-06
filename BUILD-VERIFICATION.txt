@@ -1,0 +1,15 @@
+NBB GPT-Live Ripple Test Relay v0.1.0 — build verification
+
+Static verification completed 2026-10-05:
+- Node syntax check: PASS
+- Exact 20 function schemas match GeoVee Proxy 1.3.49.2.47: PASS
+- GPT-Live endpoint: wss://api.openai.com/v1/live/sessions
+- Voice model: gpt-live-1
+- Default voice: ripple
+- Twilio/OpenAI audio format: PCMU 8 kHz pass-through
+- Responses delegation backend model configurable; default gpt-6-luna
+- Test domain fail-closed default: carpetcleaningannarbor.com
+- NBB .63 voice_conversation grounding metadata preserved for progression tools
+- Generic Relay .39-style gates included for multi-service checkpoint, call-goal continuity, contact confirmations, booking-phone choice, explicit messaging request, and final booking confirmation
+
+This is static verification only. No live Twilio/GPT-Live call has been run from this environment.
